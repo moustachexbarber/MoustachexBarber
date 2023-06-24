@@ -13,13 +13,13 @@
 
 .imagen{
     
-    background-image: url(img/barberia.jpeg);
+    background-image: url(barberia.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
 
 }
 .imagenbarba{
-    background-image: url(img/barbaaa.jpeg);
+    background-image: url(barbaaa.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 300px;
@@ -33,7 +33,7 @@
   margin-bottom: 0.3rem;
 }
 .imagenrostro{
-    background-image: url(img/rostrooo.jpeg);
+    background-image: url(rostrooo.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 300px;  
@@ -45,7 +45,7 @@
   padding: 15px;
 }
 .productos{
-    background-image: url(img/prductos.webp);
+    background-image: url(prductos.webp);
     background-repeat: no-repeat;
     background-size: cover;
     width: 300px;
@@ -74,7 +74,7 @@ p{
     font-family: Arial, Helvetica, sans-serif;
 }
 .imagen22{
-background-image: url(img/corte-cabello.jpeg);
+background-image: url(corte-cabello.jpeg);
 background-repeat: no-repeat;
 background-size: cover;
 width: 300px;
