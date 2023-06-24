@@ -1,0 +1,149 @@
+.contenedor{
+    display: flex; 
+    padding: 15px;
+    background-color: black;
+}
+
+
+    
+.logo{
+    margin-right: 500px;
+    margin-left: 25px;
+}
+
+.LETRAPORTADA{
+    margin-top: 30px;
+}
+
+
+
+
+
+.imagen{
+    
+    background-image: url(img/Fondopi.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+table, th{
+    border: 5px solid white;
+    border-collapse: collapse;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+th{
+    color: white;
+}
+
+p{
+    margin-top: 5px;
+    margin-left: 30px;
+    margin-right: 30px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.margen{
+    margin-top: 15px;
+    margin-left: 550px;
+}
+
+.navbar input[type="checkbox"],
+.navbar .hamburger-lines {
+  display: none;
+}
+
+.navbar {
+  box-shadow: 0px 5px 10px 0px #ffffff;
+  position: fixed;
+  width: 100%;
+  background: #000000;
+  color: #ffffff;
+  height: 100px;
+  z-index: 12;
+  left: 10;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  height: 75px;
+  align-items: center;
+}
+.menu-items {
+    order: 2;
+    display: flex;
+    padding-right: 250px;
+    margin-top: 40px;
+  }
+  
+  .menu-items li {
+    list-style: none;
+    margin-left: 1.5rem;
+    margin-bottom: 0.3rem;
+    font-size: 1.2rem;
+  }
+  
+  .menu-items a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 20px;
+    transition: color 0.3s ease-in-out;
+    font-family: Arial, Helvetica, sans-serif;
+
+  }
+  
+  .menu-items a:hover {
+    color: #f2fe6c;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .logo {
+    order: 1;
+    font-size: 2.20rem;
+    margin-bottom: 0.10rem;
+    height: 90px;
+    width: 90px;
+    margin-top: 30px;
+  }
+  .boton{
+    text-align: right;
+    position: absolute; top: 39%;
+    right: 150px;
+    border-radius: 3px;
+    background-color: #f2fe6c;
+    transition: color 0.3s ease-in-out;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    padding: 6px 6px;
+  }
+  .boton2{
+    text-align: right;
+    position: absolute; top: 39%;
+    right: 74px;
+    border-radius: 3px;
+    background-color: #f2fe6c;
+    transition: color 0.3s ease-in-out;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    padding: 6px 6px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .boton:hover{
+    background-color: #8a8282;
+    border: 2px solid #8a8282;
+    color: #ffffff;
+  }
+
+  .boton2:hover{
+    background-color: #8a8282;
+    border: 2px solid #8a8282;
+    color: #ffffff;
+  }
+
+
+

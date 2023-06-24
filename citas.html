@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Formulario de Citas</title>
+  <link rel="stylesheet" href="citas.css">
+  <link rel="icon" type="image/x-icon" href="img/bigote.png">
+</head>
+
+<body>
+
+  <div class="contenedor">
+
+    <img class="logo" width="115px" height="115px" src="img/proyecto.png">
+    <img class="LETRAPORTADA" height="50px" src="img/LETRAPORTADA.jpg">
+
+  </div>
+
+  <div class="formulario">
+    <h1> <em>Formulario de Citas</em></h1>
+
+    <form name="citasForm" onsubmit="return validarFormulario()">
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required>
+
+      <label for="fecha">Fecha:</label>
+      <input type="date" id="fecha" name="fecha" required>
+
+      <label for="hora">Hora:</label>
+      <input type="time" id="hora" name="hora" required>
+      <img class="metodo" width="120px" height="50px" src="img/metodo.jpg">
+      <a href="">
+        <button class="botoncitas"><span>Regresar</span></button>
+      </a>
+
+      <input type="submit" value="Agendar Cita">
+    </form>
+  </div>
+</body>
+
+</html>
+</body>
